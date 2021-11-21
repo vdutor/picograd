@@ -36,6 +36,9 @@ end;
 -(a::Number, self::Node)::Node = (Node(a) - self);
 -(self::Node, a::Number)::Node = (self - Node(a));
 
+############## Neg
+(-)(self::Node)::Node = (-1. * self)
+
 ############# Mul
 function *(self::Node, other::Node)::Node
     Node(
