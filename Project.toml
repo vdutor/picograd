@@ -1,0 +1,3 @@
+name = "PicoGrad.jl"
+authors = ["Vincent Dutordoir <vd309@cam.ac.uk>"]
+version = "0.0.1"
